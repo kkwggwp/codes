@@ -1,0 +1,216 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+body {
+  display: flex;
+  justify-content: center;
+  
+  flex-direction: column;
+  font-family: Pretendard, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 20px;
+  width: 100%;
+  margin: 0 auto;  
+}
+header {
+  background-color: #f2e9d8;
+}
+
+nav,
+ul {
+  display: flex;
+  align-items: center;
+}
+#topmenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;  
+  width: 66.67%;
+  height: 102px;
+  margin: 0 auto;
+}
+.topmenu-btn {
+  list-style-type: none;
+  margin-left: 30px;
+}
+#topmenu-dlbtn {
+  font-weight: 700;
+  padding: 15px 31px;  
+  border-radius: 40px;
+  margin-left: 49px;
+  width: 140px;
+  box-sizing: border-box; 
+  color: #fff;
+  background-color: #d97652;   
+}
+.dlbtn {  
+  font-weight: 700;
+  padding: 15px 31px;  
+  border-radius: 40px; 
+  width: 140px;
+  box-sizing: border-box; 
+  color: #fff;
+  background-color: #d97652;  
+}
+#main-a {  
+  background-color: #f2e9d8;
+}
+#main-a-box {
+  display: flex;
+  justify-content: space-between;
+  width: 66.67%;
+  margin: 0 auto;  
+}
+#boxhoduimg {
+  width: 415px;
+  height: 766px;
+  margin-top: 32px;
+}
+#main-a-p {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#main-a-p1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 60px;
+  margin-bottom: 40px;
+}
+#main-a-p2 {
+  line-height: 20px;
+  margin-bottom: 40px;
+}
+
+#main-b-box {
+  display: flex;
+  justify-content: space-between;
+  width: 66.67%;
+  margin: 0 auto;  
+}
+#main-b-p {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 110px;
+}
+#main-b-p1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 45px;
+  margin-bottom: 30px;
+}
+#bedhoduimg {
+  width: 660px;
+  height: 390px;
+  border-radius: 30px;
+  box-shadow: 10px 10px 30px 0px #00000040;
+  margin-top: 80px;
+}
+#main-gallery {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+}
+#main-gallery-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 66.67%;
+  margin: 0 auto;  
+  margin-top: 120px;
+}
+#main-gallery-p { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 88px;
+  
+}
+#main-gallery-p1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 60px;
+  color: #D97652; 
+}
+span.dummy {
+  color: #D97652;
+}
+.hoducontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 73px;
+  row-gap: 72px;
+  width: 80%;
+  max-width: 1000px;
+  justify-content: center;
+}
+.hoducontainer img {
+  width: 378px;
+  height: 378px;
+  border-radius: 30px;   
+  object-fit: cover;
+  box-shadow: 10px 10px 30px 0px #00000040;
+}
+#main-gallery-p3 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+#main-gallery-p3 > p {
+  font-size: 1.5rem;  
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center; 
+  margin-bottom: 28px;
+}
+.showbtn {
+  display: flex;                /* Flexbox를 사용하여 아이템 정렬 */
+  align-items: center;          /* 수직 중앙 정렬 */
+  justify-content: center;   
+  width: 143px;
+  height: 50px;  
+  border-radius: 40px;  
+  text-align: center; 
+  color: #fff;
+  background: #D97652;  
+}
+hr {
+  width:66.67%;
+  height: 1px;
+  background: #C4C4C4;
+  border: 0;
+  margin-bottom: 68px;
+}
+#main-map {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+    
+}
+#main-map-box {
+  display: flex;  
+  flex-direction: column;
+  width: 66.67%;
+  margin: 0 auto; 
+}
+#main-map-p {
+  display: flex;
+  flex-direction: column;  
+}
+#main-map-p1 {  
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 45px;  
+}
+#main-map-p2 {
+  font-weight: 500;
+  color: #606367;  
+}
