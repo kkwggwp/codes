@@ -102,13 +102,10 @@
             </div>
           </div>                     
         </div>
-        <div id="image">        
+        <div>        
           <img src="./img/img_7.png" alt="HO-DU" id="bighodu">                  
         </div>
       </section>
-
-      <!-- <img src="./img/scroll-top-btn.png" alt="scroll top">               -->
-
     </main>
     <footer>
       <div id="footer-container">      
@@ -123,5 +120,25 @@
         </nav>
       </div>
     </footer>
+    <a href="#" id="scroll-top-btn">
+      <img src="./img/scroll-top-btn.png" alt="scrolltop" />
+    </a>
+    <script>
+      // 스크롤 탑 버튼 스크립트
+      const scrollTopBtn = document.getElementById('scroll-top-btn');
+      
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) { // 스크롤이 300px 이상일 때 버튼 표시
+          scrollTopBtn.style.display = 'block';
+        } else {
+          scrollTopBtn.style.display = 'none';
+        }
+      });
+  
+      scrollTopBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    </script>
   </body>
 </html>
