@@ -119,13 +119,14 @@ nav a {
   box-shadow: 10px 10px 30px 0px #00000040;  
 }
 
+/* main-gallery */
+
 #main-gallery-container {
   display: flex;
   align-items: center;
   flex-direction: column;
   max-width: 1280px;
-  margin: 120px auto 0;  
-  
+  margin: 120px auto 0;
 }
 
 #main-gallery-text { 
@@ -201,7 +202,9 @@ hr {
   margin-top: 80px;  
 }
 
-#main-map-box {
+/* main-map */
+
+#main-map-container {
   display: flex;  
   flex-direction: column;
   max-width: 1280px;
@@ -232,40 +235,34 @@ hr {
   align-items: center;  
 }
 
-#main-subs {
-  margin-top: 80px;
-  display: flex;
-  flex-direction: column;
-  width: 100%;    
-  justify-content: center;
-  align-items: center;
-}
+/* main-subs */
 
 #main-subs-container {
-  position: relative;
-  display: flex;  
-  width: 100%;
-  
+  display: flex;
+  flex-direction: column;     
   justify-content: center;
-  z-index: 1;
+  align-items: center;   
+  width: 100%;  
+  margin-top: 80px;
 }
 
 #main-subs-inputbox {
-  position: relative;
   display: flex;
-  align-items: center;          
   justify-content: space-between;
+  align-items: center;
   max-width: 1280px;
+  width: 100%;      
+  gap: 163px;
   height: 200px;
   border-radius: 30px;
   background: #263140;
+  padding: 0 58px 0 58px;
+  z-index: 1;  
 }
 
 #main-subs-text {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 58px;  
+  flex-direction: column;    
   gap: 18px;
 }
 
@@ -282,15 +279,53 @@ hr {
   color: #F2E9D8;  
 }
 
-.subsinput {
-  position: relative;
+.subsinput-container {
   display: flex;
+  align-items: center;
+  width: 530px;
+  border: 1px solid #ccc;
+  border-radius: 60px;
+  padding: 5px;
+}
+
+.email-icon {
+  width: 24px; /* 아이콘 크기 조정 */
+  height: 24px;
+  margin-right: 16px; /* 입력 필드와 아이콘 사이의 간격 */
+}
+
+input[type="email"] {
+  flex: 1; /* 입력 필드가 남은 공간을 채우도록 설정 */
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+
+.subsbtn {
+  font-weight: 700;
+  background-color: #007BFF;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  margin-left: 10px; /* 입력 필드와 버튼 사이의 간격 */
+}
+
+.subsbtn:hover {
+  background-color: #0056b3;
+}
+
+
+/* .subsinput {
+  display: flex;
+  position: relative;  
   align-items: center;
   width: 100%;
   max-width: 530px; 
   background: #263140;
-  border-radius: 30px;
-  margin-right: 58px;
+  border-radius: 30px;  
 }
 
 .emailicon {
@@ -321,7 +356,7 @@ hr {
   text-align: center;
   line-height: 50px; 
   text-decoration: none;
-}
+} */
 
 #image {
   position: relative;
@@ -337,6 +372,8 @@ hr {
   z-index: -1;
   margin-top: -100px;
 }
+
+/*footer*/
 
 #footer-container {
   display: flex;
