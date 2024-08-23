@@ -10,15 +10,10 @@ body {
 header {
   background-color: #f2e9d8;
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 0;  
   width: 100%;
   z-index: 1000;
 }
-/* header {
-  background-color: #f2e9d8;
-  
-}
 
 #topmenu {
   display: flex;
@@ -26,17 +21,7 @@ header {
   align-items: center;    
   max-width: 1280px;
   height: 102px;
-  margin: 0 auto;
-}*/
-
-#topmenu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;    
-  max-width: 1280px;
-  height: 102px;
-  margin: 0 auto;
-  padding: 0 20px;
+  margin: 0 auto;  
 }
 
 #topmenu img {
@@ -64,8 +49,6 @@ nav a {
   color: #fff;
   background-color: #d97652;   
 }
-
-
 
 main {
   margin-top: 102px;
