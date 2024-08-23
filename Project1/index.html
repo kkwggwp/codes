@@ -9,54 +9,55 @@
   </head>
   <body>
     <header>
-      <div id="topmenu">        
-        <a href="index.html">
-          <img src="./img/Logo-fin.png" alt="HODU"/>
-        </a>
+      <div id="topmenu">
+        <a href="index.html"><img src="./img/Logo-fin.png" alt="HODU"/></a>        
         <nav>
           <ul>
-            <li class="topmenu-btn"><a href="index.html">Home</a></li>
-            <li class="topmenu-btn">About</a></li>
-            <li class="topmenu-btn">Support</a></li>
-            <li class="topmenu-btn" id="topmenu-dlbtn"><a href="">Download</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#" id="topmenu-dlbtn">Download</a></li>
           </ul>
         </nav>
       </div>
     </header>
+
     <main>
       <section id="main-a">
-        <div id="main-a-box">
-          <div id="main-a-p">
-            <p id="main-a-p1">Lorem Ipsum is simply <br />dummy text of the printing and</p>
-            <p id="main-a-p2">
-              Lorem Ipsum is simply dummy text of the printing and <br />
-              typesetting Industry.<br />Lorem Ipsum has been the industry's
-              standard dummy text<br />ever since the 1500s, when an unknown
+        <div id="main-a-container">
+          <div class="main-a-text">
+            <p class="main-a-text1">Lorem Ipsum is simply <br/>dummy text of the printing and</p>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and<br/>
+              typesetting Industry.<br/>Lorem Ipsum has been the industry's
+              standard dummy text<br/>ever since the 1500s, when an unknown
             </p>
-            <a class="dlbtn" href="">Download</a>
+            <a class="main-a-dlbtn" href="">Download</a>
           </div>
           <img src="./img/img_cat_png.png" alt="boxhodu" id="boxhoduimg" />
         </div>
       </section>
+
       <section id="main-b">
         <div id="main-b-box">
-          <img src="./img/img_0.png" alt="ho---du" id="bedhoduimg" />
-          <div id="main-b-p">
-            <p id="main-b-p1">Lorem Ipsum is simply dummy text of the printing and dummy text</p>
-            <p id="main-b-p2">Lorem Ipsum is simply dummy text of the printing and typesetting Industry.</p>   
+          <img src="./img/img_0.png" alt="ho---du"/>
+          <div id="main-b-text">
+            <p class="main-b-text1">Lorem Ipsum is simply dummy text of the printing and dummy text</p>
+            <p">Lorem Ipsum is simply dummy text of the printing and typesetting Industry.</p>   
           </div>       
         </div>
       </section>
+
       <section id="main-gallery">
-        <div id="main-gallery-box">
-          <div id="main-gallery-p">
-            <p id="main-gallery-p1">dummy text of the printing and dummy</p>
-            <p id="main-gallery-p2">
+        <div id="main-gallery-container">
+          <div id="main-gallery-text">
+            <p id="main-gallery-text1">dummy text of the printing and dummy</p>
+            <p id="main-gallery-text2">
             Lorem Ipsum is simply <span class="dummy">dummy text</span> of the printing and typesetting Industry.<br />
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
             </p>
           </div>        
-          <div class="hoducontainer">        
+          <div class="hodu-container">        
             <img src="./img/img_1.png" alt="hodu01" />
             <img src="./img/img_2.png" alt="hodu02" />
             <img src="./img/img_3.png" alt="hodu03" />    
@@ -64,56 +65,62 @@
             <img src="./img/img_5.png" alt="hodu05" />
             <img src="./img/img_6.png" alt="hodu06" />        
           </div>
-          <div id="main-gallery-p3">
+          <div id="main-gallery-text3">
             <p>Continue exploring HODU</p>
             <a class="showbtn" href="">Show more</a>
           </div>
-      </div>
+        </div>
       </section>
-      <hr />      
+
+      <hr />  
+
       <section id="main-map">
         <div id="main-map-box">
           <div id="main-map-p">    
             <p id="main-map-p1">Where you'll be</p>
-            <p id="main-map-p2">330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea</p>
-            <img src="./img/map.png" alt="map" id="mapimage"/>
-          </div> 
+            <p id="main-map-p2">330, Cheomdan-ro, Jeju-si, Jeju-do, Republic of Korea</p>            
+          </div>
+          <img src="./img/map.png" alt="map" id="mapimage"/> 
         </div>
       </section>
+
       <section id="main-subs">
-        <div id="main-subs-box">
-          <div >
-            <div id="main-subs-p">
-              <p id="main-subs-p1">Subscribe to our Blog post</p>
-              <p id="main-subs-p2">
+        <div id="main-subs-container">
+          <div id="main-subs-inputbox">
+            <div id="main-subs-text">
+              <p id="main-subs-text1">Subscribe to our Blog post</p>
+              <p id="main-subs-text2">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 Industry.<br />Lorem Ipsum has been the industry's standard dummy
                 text
               </p>              
-            </div>
-            <div id="subsinput">
-              <img src="./img/mail.png" alt="email" />
-              <input type="email" placeholder="Enter your e-mail address" />
+            </div>       
+            <div class="subsinput">
+              <img src="./img/mail.png" alt="email icon" class="emailicon" />
+              <input type="email" placeholder="Enter your e-mail address" id="emailinputbox"/>
               <a class="subsbtn" href="#">Subscribe</a>
             </div>
-          </div>
-          <div>
-            <a id="scrolltop" href="#">
-            <img src="./img/keyboard_arrow_up.png" alt="arrow up" />
-            </a>
-              <img src="./img/img_7.png" alt="HO-DU" />
-          </div>
+          </div>                     
+        </div>
+        <div id="image">        
+          <img src="./img/img_7.png" alt="HO-DU" id="bighodu">                  
         </div>
       </section>
+
+      <!-- <img src="./img/scroll-top-btn.png" alt="scroll top">               -->
     </main>
-    <footer>      
-        <img src="./img/Logo-fin.png" alt="HODU" />      
-      <ul>
-        <li><img src="./img/blog.png" alt="blog" /></li>
-        <li><img src="./img/instagram.png" alt="instagram" /></li>
-        <li><img src="./img/facebook.png" alt="facebook" /></li>
-        <li><img src="./img/youtube.png" alt="youtube" /></li>
-      </ul>
+    <footer>
+      <div id="footer-container">      
+        <img src="./img/Logo-fin.png" alt="HODU" />
+        <nav>      
+          <ul>
+            <li class="snsbtn"><img src="./img/icon-blog.png" alt="blog" /></li>
+            <li class="snsbtn"><img src="./img/icon-insta.png" alt="instagram" /></li>
+            <li class="snsbtn"><img src="./img/icon-facebook.png" alt="facebook" /></li>
+            <li class="snsbtn"><img src="./img/icon-youtube.png" alt="youtube" /></li>
+          </ul>
+        </nav>
+      </div>
     </footer>
   </body>
 </html>
